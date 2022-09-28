@@ -10,17 +10,13 @@ const Sidebar = ()=>{
         <div className="sidebar">
             <div className="sidebar2">
              <div className="sidebar3 d-flex flex-column justify-content-evenly ">
-                <div className="home icon"><AiOutlineHome/></div>
-                <div className="aboutme icon"><CgProfile/></div>
-                <div className="work icon"><MdWorkOutline/></div>
-                <div className="contact icon"><FiPhone/> </div> 
+                <div className="home icon d-flex align-items-center justify-content-center"><AiOutlineHome/></div>
+                <div className="aboutme icon d-flex align-items-center justify-content-center"><CgProfile/></div>
+                <div className="work icon d-flex align-items-center justify-content-center"><MdWorkOutline/></div>
+                <div className="contact icon d-flex align-items-center justify-content-center"><FiPhone/> </div> 
             </div>
             </div>
         </div>
-           
-           
-           
-           
            </>
     )
 }

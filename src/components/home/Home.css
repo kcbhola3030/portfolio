@@ -3,40 +3,7 @@
     margin: 0;
     padding: 0;
 }
-.sidebar{
-    background-color: rgba(237, 237, 255, 0.28);
-    width:80px;
-    height: 100%;
-    position: absolute;
-    z-index: 3;
-}
-.sidebar2{
-    background-color: rgba(167, 167, 189, 0.28);
-    width:60px;
-    height: 100%;
-    position: absolute;
-    z-index: 4;
-}.sidebar3{
-    background-color: rgba(255, 255, 255, 0.87);
-    width:80px;
-    height: 80%;
-    position: absolute;
-    margin-top: 72px;
-    z-index: 5;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    display: flexbox;
-}
-.icon{
-    width: 30px;
-    height: 30px;
-    margin-left: 25px;
-font-size: 20px;
-}
-.icon:hover{
-   opacity: 0.3;
-    background-color: rgba(237, 237, 255, 0.28);
-}
+
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
